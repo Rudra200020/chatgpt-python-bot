@@ -5,9 +5,9 @@ import openai
 
 
 #Bot Api Token
-API_TOKEN = ''
+API_TOKEN = '6140419081:AAHoDHu3DW6Bs_0ZXoTbjvvMxwG2NLPdAO8'
 #Openai Api Key
-openai.api_key=""
+openai.api_key="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"
 
 
 bot = telebot.TeleBot(API_TOKEN)
@@ -33,7 +33,7 @@ Hi there, I am A Ai ChatBot.
 
 I am here to Give Answers Of Your Question.
 
-I Am Created Using Chatgpt Api ! 
+I Am Created by @Rudransh_op ! 
 
 Use /ask  To Ask Questions\
 """)
