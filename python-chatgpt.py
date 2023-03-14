@@ -5,9 +5,9 @@ import openai
 
 
 #Bot Api Token
-API_TOKEN = ''
+API_TOKEN = '6140419081:AAHoDHu3DW6Bs_0ZXoTbjvvMxwG2NLPdAO8'
 #Openai Api Key
-openai.api_key=""
+openai.api_key="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"
 
 
 bot = telebot.TeleBot(API_TOKEN)
@@ -29,11 +29,11 @@ def get_response(msg):
 def send_welcome(message):
 	 # bot.send_message(message.chat.id,message.text)
 	   bot.send_message(message.chat.id, """\
-Hi there, I am A Ai ChatBot.
+Hi there, I am AI CHAT GPT BOT.
 
 I am here to Give Answers Of Your Question.
 
-I Am Created Using Chatgpt Api ! 
+I Am Created By @RUDRANSH_OP ! 
 
 Use /ask  To Ask Questions\
 """)
